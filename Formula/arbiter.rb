@@ -1,15 +1,15 @@
 class Arbiter < Formula
   desc "Autonomous GitHub Issue Solver with AI"
   homepage "https://git-arbiter.com"
-  version "0.1.1-beta.4"
+  version "0.1.1-beta.5"
   license "Proprietary"
 
   if OS.mac? && Hardware::CPU.arm?
-    url "https://github.com/Git-Arbiter/arbiter-releases/releases/download/v0.1.1-beta.4/arbiter-macos-arm64"
-    sha256 "15e6ab66e91e6d339e50be2f597a8a4c5b763e1a79ece7d278c2fe7a9498d3d7"
+    url "https://github.com/Git-Arbiter/arbiter-releases/releases/download/v0.1.1-beta.5/arbiter-macos-arm64"
+    sha256 "391738ed346d4c0f5801dc752e22c283d18ed026c4eebca7d098f799a453c0f5"
   elsif OS.mac? && Hardware::CPU.intel?
-    url "https://github.com/Git-Arbiter/arbiter-releases/releases/download/v0.1.1-beta.4/arbiter-macos-x64"
-    sha256 "caca30a4cc12a93f22e788afdf30f5dbe0d56acc7eb230a34db642dd7a2b73ec"
+    url "https://github.com/Git-Arbiter/arbiter-releases/releases/download/v0.1.1-beta.5/arbiter-macos-x64"
+    sha256 "92048de37e70b2bef9bc04d92e5ffc4ba8b845d35fac6badc07635e4623d44b8"
   end
 
   def install
