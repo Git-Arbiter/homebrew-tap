@@ -6,10 +6,10 @@ class Arbiter < Formula
 
   if OS.mac? && Hardware::CPU.arm?
     url "https://github.com/Git-Arbiter/arbiter-releases/releases/download/v0.1.1-beta.8/arbiter-macos-arm64"
-    sha256 "b141679dfb6100b1bec4afb3590815661a36e90d7f5b26ea422a0ddec2898601"
+    sha256 "5a1ea5663bb5a311b13dcfc24c4806089adc3451909dd26d9d9cd0233c729bd8"
   elsif OS.mac? && Hardware::CPU.intel?
     url "https://github.com/Git-Arbiter/arbiter-releases/releases/download/v0.1.1-beta.8/arbiter-macos-x64"
-    sha256 "57515aa1ceaa519ab5b45aee448e5c834ba688a1441565520187a0123913e19d"
+    sha256 "14cab3cae26951df86acd37ee16bf621581654253b612727699c8fdd128c0159"
   end
 
   def install
